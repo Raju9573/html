@@ -1,0 +1,265 @@
+
+    body {
+      background-color: aquamarine;
+      margin: 0px;
+
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: lightgray;
+    }
+
+    .navleft-image img{
+      width: 60px;
+      height: 40px;
+      border-radius: 5%;
+      margin: 10px 10px 10px 10px;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 100px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .nav-links li a:hover {
+      color: #00bcd4;
+      transform: scale(1.2);
+    }
+
+    .button button{
+      width: 60px;
+      height: 40px;
+      border-radius: 5%;
+      background-color: blue;
+      color: aliceblue;
+      margin: 10px 10px 10px 10px;
+      
+    }
+    .m{
+      display: flex;
+
+    }
+    .middle-image img{
+      width: 1512px;
+      height: 1000px;
+      
+    }
+    .middle-image p{
+      font-size: larger;
+      text-align: center;
+    }
+     h1{
+      text-align: center;
+      font-size: 40px;
+      color: brown;
+      margin-top: 60px;
+    }
+    
+    .cardss{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+      row-gap: 40px;
+      margin-left: 100px;
+      margin-right: 100px;
+
+    }
+    .card:hover{
+      transform: scale(1.2);
+
+    }
+
+    .card {
+      background: lightgrey;
+      text-align: center;
+      word-spacing: 2px;
+      border-radius: 10px;
+      box-shadow: 1000px 3000px 4000px black;
+      padding-top: 20px;
+      margin-left: 100px;
+      margin-right: 100px;
+      
+    }
+
+    .card img {
+      width: 150px;
+      height: 200px;
+      border-radius: 10px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      
+    }
+
+    .card p {
+      color: black;
+      margin-top: 20px;
+    }
+
+    .card button {
+      background: blue;
+      color: white;
+      padding: 20px 40px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: larger;
+    }
+
+    button:hover {
+      background: darkblue;
+      transform: scale(1.2);
+    }
+
+    h4{
+      color: brown;
+      font-size: 40px; 
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 80px;
+    }
+     .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image img {
+            width: 300px;
+            height: auto;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .text h2{
+          font-size: 40px;
+          color: brown;
+          text-align: right;
+        }
+        .text p{
+          font-size: 18px;
+          line-height: 1.8;
+        }
+
+        .container p {
+          line-height: 1.8;
+          font-size: 18px;
+            margin: 0;
+            text-align: justify;
+        }
+    
+   
+    /* Responsive */
+    @media (max-width:768px){
+      .container2{
+        flex-direction:column;
+        text-align:center;
+      }
+    }
+
+    
+    .footer {
+  background: lightgrey;
+  padding: 30px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #00bcd4;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.15);
+}
+.About{
+  text-align: center;
+  line-height:1.8;
+  font-size:18px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 40px;
+}
+.Services{
+  text-align: center;
+  line-height:1.8;
+  font-size:18px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 40px; 
+
+}
+.Contact{
+  text-align: center;
+  line-height:1.8;
+  font-size:18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
+.login-form{
+  text-align: center;
+
+
+}
+.field{
+  line-height: 4.8;
+}
+.field button{
+  background-color: blue;
+  color: aliceblue;
+}
+.register{
+  text-align: center;
+  line-height: 1.8;
+}

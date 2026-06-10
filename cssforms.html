@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+        input{
+            width: 100px;
+        }
+    </style>
+    <body>
+        <form action="/action_page.php" target="_blank">
+            <label for="fname">Firstname</label><br>
+            <input type="text" id="fname" name="fname" value="one"><br>
+            <label for="lname">lastname</label><br>
+            <input type="text" id="lname" name="lname" value="two"><br><br>
+            <input type="submit" value="sumbit"><br>
+            <label for="cars">choose a car:</label>
+            <select id="cars" name="cars" size="4" multiple>
+                <option value="volvo">volvo</option>
+                <option value="saab">saab</option>
+                <option value="fiat">fiat</option>
+                <option value="audi">audi</option>
+            </select>
+            <input type="submit">
+            <textarea name="message" rows="10" cols="30">the cat was playing in the garden</textarea><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>

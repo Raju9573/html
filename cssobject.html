@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+img.a {
+  width: 200px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 5px 10px;
+  offset: path('M 50 80 C 150 -20 250 180 350 80') 150px auto 45deg;
+  offset-anchor: right center;
+  offset-distance: 33%;
+  offset-path: path('M20,170 L100,20 L180,100 Z');
+  offset-position: bottom right;
+  offset-rotate: auto;
+  opacity: 0.5;
+  outline: 5px dotted green;
+  outline-color: coral;
+  outline: 4px solid red;
+  outline-offset: 15px;
+  outline-style: dotted;
+  outline-width: thick;
+}
+}
+</style>
+</head>
+<body>
+
+<h2>The object-fit Property</h2>
+
+<h2>object-fit: cover:</h2>
+<p>Cut off the sides of an image, preserving the aspect ratio, and also filling in the space:</p>
+<img class="a" src="https://e7.pngegg.com/pngimages/758/371/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo.png" alt="Paris" width="400" height="300">
+
+<h2>Original image:</h2>
+<img src="https://e7.pngegg.com/pngimages/758/371/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo.png" alt="Paris" width="400" height="300">
+
+<p>Note: The object-fit property is not supported in Edge 15 or earlier.</p>
+
+    
+</body>
+</html>

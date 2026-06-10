@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+        p{
+            color: aliceblue;
+            background-color: antiquewhite;
+            text-align: center;
+            text-justify: inter-word; 
+        }
+        p1{
+            text-align-last: right;
+            background-color: aquamarine;
+        }
+        p2{
+            text-decoration: overline;
+            text-underline-offset: 100px;
+            text-underline-position: under;
+            text-decoration-color: brown;
+            text-decoration-style: dotted;
+            text-decoration-thickness: 15px;
+            transform: rotate(20deg);
+            transform-origin: 20% 40%;
+            transform-style: preserve-3d;
+            transition: width 2s;
+            transition-delay: 2s;
+            transition-duration: 5s;
+            transition-property: width;
+            transition-timing-function: linear;
+            translate: 100px 20px;
+        }
+        p3{
+            text-transform: uppercase;
+        }
+        p4{
+            text-indent: 500px;
+            letter-spacing: 5px;
+        }
+        p5{
+            line-height: 1.5px;
+        }
+        p6{
+            word-spacing: 150px;
+
+        }
+        p7{
+            text-shadow: 2px 2px red,2px 2px yellow;
+        }
+
+        #t1 {
+  tab-size: 4;
+}
+
+#t2 {
+  tab-size: 16;
+}
+
+p.ex1 {
+  text-emphasis: filled;
+}
+
+p.ex2 {
+  text-emphasis: open; 
+}
+
+p.ex3 {
+  text-emphasis: double-circle red; 
+}
+
+p.ex4 {
+  writing-mode: vertical-lr;
+  text-emphasis: triangle blue; 
+  text-emphasis-position: under left;
+  text-emphasis-style: double-circle;
+}
+
+div.a {
+  text-indent: 50px;
+}
+
+div.a {
+  text-orientation: mixed;
+}
+
+
+
+    </style>
+    <body>
+        <p>paragraph</p>
+        <p1>paragraph</p1>
+        <p2>paragraph</p2>
+        <p3>paragraph</p3>
+        <p4>paragraph</p4>
+        <p5>paragraph</p5>
+        <p6>word spacing between the words</p6>
+        <p7>the text shadow property add shadow to text</p7>
+
+        <h1>The tab-size Property</h1>
+
+<pre id="t1">
+I	use	tab-size	4
+</pre>
+
+<pre id="t2">
+I	use	tab-size	16
+</pre>
+ 
+<h1>The text-emphasis Property</h1>
+
+<p class="ex1">This is some text.</p>
+
+<p class="ex2">This is some text.</p>
+
+<p class="ex3">This is some text.</p>
+
+<p class="ex4">This is some text.</p>
+
+<h1>The text-indent Property</h1>
+
+<h2>text-indent: 50px:</h2>
+<div class="a">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+</div>
+
+
+ <h1>The text-orientation Property</h1>
+<p>Left box has text-orientation: mixed. Right box has text-orientation: upright.</p>
+<div class="a">
+<h3>text-orientation: mixed</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+</div>
+    </body>
+</html>

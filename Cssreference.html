@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-flow: wrap;
+}
+
+#main div {
+  flex: 1;
+  flex-grow: 1;
+}
+.grid-container {
+  border: 1px solid black;
+  background-color: mintcream;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+.grid-container > div {
+  border: 1px solid black;
+  background-color: yellow;
+}
+
+</style>
+<body>
+    <p style="direction: rtl;">paragraph</p><br>
+    <p style="display: flex;">paragraph1 paragraph2</p>
+    <img src="https://e7.pngegg.com/pngimages/758/371/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo.png" alt="Pineapple" width="300" height="300" style="filter: grayscale(100%);">
+    <h1>The flex Property</h1>
+
+    <div id="main">
+    <div style="background-color:coral;">RED</div>
+    <div style="background-color:lightblue;">BLUE</div>  
+    <div style="background-color:lightgreen;">Green div with more content.</div>
+    </div>
+    <div class="grid-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>  
+  <div>8</div>  
+  </div>
+  
+</body>
+</html>

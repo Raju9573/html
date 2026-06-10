@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<p id="demo11"></p>
+<p id="demo12"></p>
+<script>
+let text = "John Doe";  // String written inside quotes
+document.getElementById("demo").innerHTML = text;
+
+let text1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo1").innerHTML = text1.length;
+document.getElementById("demo2").innerHTML = text1.charAt(0);
+document.getElementById("demo3").innerHTML = text1.toLowerCase();
+
+
+let text2 = "Hello";
+let text3 = "World!";
+let text4 = text2.concat(" ",text3);
+document.getElementById("demo4").innerHTML = text4;
+
+let text5 = "Apple, Banana, Kiwi";
+let part = text5.slice(7,13);
+document.getElementById("demo5").innerHTML = part; 
+
+let text6 = "Apple, Banana, Kiwi";
+let part1 = text6.slice(-12,-6)
+document.getElementById("demo6").innerHTML = part1;
+
+let str = "Apple, Banana, Kiwi";
+document.getElementById("demo7").innerHTML = str.substring(7,13);
+
+let text7 = "Hello world!";
+let result = text.isWellFormed();
+
+document.getElementById("demo8").innerHTML = result;
+
+let text8 = "     Hello World!     ";
+let text9 = text8.trimstart();
+
+document.getElementById("demo9").innerHTML =
+"Length text1 = " + text8.length + "<br>Length text2 = " + text9.length;
+
+let text10 = "5";
+text10 = text10.padStart(4,"0");
+
+document.getElementById("demo10").innerHTML = text10;
+
+let text11 = "5";
+text11 = text11.padEnd(4,"0");
+
+document.getElementById("demo11").innerHTML = text11;
+
+let text12 = "Hello world!";
+let result1 = text12.repeat(2);
+
+document.getElementById("demo12").innerHTML = result1;
+</script>
+
+</body>
+</html>
