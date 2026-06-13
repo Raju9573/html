@@ -1,0 +1,1 @@
+In JavaScript, console is an object used for displaying messages and debugging information.
